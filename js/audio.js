@@ -3,7 +3,7 @@
    // var audio = new Audio(url);
     document.addEventListener('keydown', function(e) {
     if(e.keyCode == 68){
-    document.getElementById('audio').play();
+    document.getElementById('audio').play()
     audio.currentTime = 0;
     }
     });
@@ -46,7 +46,7 @@
         // Coin Audio
 document.addEventListener('keydown', function(e) {
     if(e.keyCode == 68){
-    document.getElementById('audio7').play();
+    document.getElementById('audio7').play()
     audio.currentTime = 0;
     }
     });
@@ -83,14 +83,13 @@ document.addEventListener('keydown', function(e) {
         if(e.keyCode == 76){
         document.getElementById('audio12').play();
         audio.currentTime = 0;
-        console.log()
         }
         });
 
         // Pause Audio
 document.addEventListener('keydown', function(e) {
     if(e.keyCode == 68){
-    document.getElementById('audio13').play();
+    document.getElementById('audio13').play()
     audio.currentTime = 0;
     }
     });
