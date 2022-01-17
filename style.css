@@ -5,13 +5,12 @@ body {
 }
 
 ul {
-  background-color: rgb(252, 47, 47);
-  opacity: .7;
+  background-color:#912f40;
     list-style-type: none;
     margin: 5px;
     padding: 12px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     
   }
   
@@ -56,7 +55,7 @@ ul {
   }
 
   .key * {
-    font-size: 25px;
+    font-size: 45px;
   }
   .keyboard {
     font-size: 120px;
@@ -67,10 +66,11 @@ ul {
 .hero {
   display: flex;
   color: #F9FAF8;
-  background-color: #1F2937;
+  background-color:#702632;
   align-items: center;
   justify-content: center;
   padding: 90px;
+  border-radius: 20px;
 }
 
 .hero-cta {
@@ -80,8 +80,9 @@ ul {
   flex-direction: row;
   text-align: left;
   margin-right: 50px;
-  padding: 12px;
-  border: solid 4px rgb(54, 54, 116);
+  padding: 50px;
+  border-radius: 5px;
+  border: solid 2px #40434e;
 }
 
 .hero-cta p {
@@ -111,7 +112,7 @@ ul {
     text-align: center;
     width: 110px;
     border: none;
-    background: rgb(87, 87, 223);
+    background: #f33757;
     padding: 10px;
     border-radius: 8px;
     color: #fff;
@@ -121,7 +122,7 @@ ul {
 }
 
 .button:hover {
-  background-color:#3882f6;
+  background-color:#912f40;
   color: white;
 }
 
@@ -131,4 +132,8 @@ ul {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.game-type i {
+  font-size: 10px;
 }

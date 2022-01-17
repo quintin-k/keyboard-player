@@ -21,12 +21,12 @@ const numMap = {
     if (['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.', '/', '-', 'enter'].indexOf(keyName) !== -1) {
       if (e.location === 3) {
         const key = document.getElementById("num" + keyName);
-        key.style.background = '#ffd666';
+        key.style.background = '#f33757';
         return;
       }
     }
     const key = document.getElementById(keyName);
-    key.style.background = '#ffd666';
+    key.style.background = '#f33757';
   }
   function onKeyUpHandle(e) {
     e.preventDefault();
