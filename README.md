@@ -6,7 +6,7 @@ This is my first real project I've done, if we ignore the other small repositori
 *How-to:* First, clone the repository & host it locally. After selecting a music theme you like, use the keys on your keyboard that are shown on the screen to play a sound/chime. The idea is with enough time, you can create a whacky & odd rythm that could make a neat song.
 
 *Known bugs:*
-- Github Deployment doesn't like to use my stylesheet, must be shy.
+- Github Deployment doesn't like to use my stylesheet, must be shy. (Seems to be a stylesheet file-pathing issue)
 - Coins & Pause do not repeat sounds when clicking a button multiple times.
 
 *Sources:*
