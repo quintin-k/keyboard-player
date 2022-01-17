@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(64, 49, 129);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+      color: black;
+    background-color:rgb(255, 251, 251);
+
+  }
+
+  .key {
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+  }
+  .key * {
+    font-size: 24px;
+  }
+  .keyboard {
+    font-size: 90px;
+  }

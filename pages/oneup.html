@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>1UP</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a class="active" href="/pages/oneup.html">1UP</a></li>
+          <li><a href="/pages/coin.html">Coin</a></li>
+          <li><a href="/pages/pause.html">Pause</a></li>
+        </ul>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="keyboard">
+          <div style="display: flex;">
+            <div class="key" style="width: 1em; height: 1em;" id="d"><span>D</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="f"><span>F</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="g"><span>G</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id=""><span></span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="j"><span>J</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="k"><span>K</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="l"><span>L</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio Elements when Key Pressed -->
+    <div>
+        <!--1UP-->
+<audio id="audio" controls style="display:none">
+  <source src="/audio/MM 1UP 1.wav" type="audio/mpeg">
+  <audio id="audio2" controls style="display:none">
+    <source src="/audio/MM 1UP 2.wav" type="audio/mpeg">
+    <audio id="audio3" controls style="display:none">
+        <source src="/audio/MM 1UP 3.wav" type="audio/mpeg">
+        <audio id="audio4" controls style="display:none">
+            <source src="/audio/MM 1UP 4.wav" type="audio/mpeg">
+            <audio id="audio5" controls style="display:none">
+                <source src="/audio/MM 1UP 5.wav" type="audio/mpeg">
+                <audio id="audio6" controls style="display:none">
+                    <source src="/audio/MM 1UP 6.wav" type="audio/mpeg">
+<script src="/js/audio.js"></script>
+    </div>
+    <script src="/js/click.js"></script>
+</body>
+</html>

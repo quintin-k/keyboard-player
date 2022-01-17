@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>1UP</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/oneup.html">1UP</a></li>
+          <li><a class="active" href="/pages/coin.html">Coin</a></li>
+          <li><a href="/pages/pause.html">Pause</a></li>
+        </ul>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="keyboard">
+          <div style="display: flex;">
+            <div class="key" style="width: 1em; height: 1em;" id="d"><span>D</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="f"><span>F</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="g"><span>G</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id=""><span></span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="j"><span>J</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="k"><span>K</span></div>
+            <div class="key" style="width: 1em; height: 1em;" id="l"><span>L</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio Elements when Key Pressed -->
+     <!--Coin-->
+     <audio id="audio7" controls style="display:none">
+        <source src="/audio/MM Coin 1.wav" type="audio/mpeg">
+        <audio id="audio8" controls style="display:none">
+            <source src="/audio/MM Coin 2.wav" type="audio/mpeg">
+            <audio id="audio9" controls style="display:none">
+                <source src="/audio/MM Coin 3.wav" type="audio/mpeg">
+                <audio id="audio10" controls style="display:none">
+                    <source src="/audio/MM Coin 4.wav" type="audio/mpeg">
+                    <audio id="audio11" controls style="display:none">
+                        <source src="/audio/MM Coin 5.wav" type="audio/mpeg">
+                        <audio id="audio12" controls style="display:none">
+                            <source src="/audio/MM Coin 6.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+<script src="/js/audio.js"></script>
+    </div>
+    <script src="/js/click.js"></script>
+</body>
+</html>
